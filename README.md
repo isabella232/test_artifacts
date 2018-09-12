@@ -5,7 +5,7 @@ Test artifacts for Flank. These are used to develop Flank.
 # updating
 
 - Create `archive.zip` based on latest release
-- `gradle run` updates the GitHub release with the latest fixtures
+- `gradle run` uploads `archive.zip` as the new release
 
 # API token
 
