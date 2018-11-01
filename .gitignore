@@ -3,3 +3,6 @@
 build
 **.iml
 *.zip
+archive/
+EarlGreyExample/dd_tmp/
+EarlGreyExample/earlgrey_example/
