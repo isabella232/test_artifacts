@@ -4,8 +4,8 @@ Test artifacts for Flank's test suite.
 
 # Updating
 
-- Create `archive.zip` based on latest release
-- `gradle run` uploads `archive.zip` as the new release
+- Create `Archive.zip` based on latest release
+- `gradle run` uploads `Archive.zip` as the new release
 
 # API Token
 

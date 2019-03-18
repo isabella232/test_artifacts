@@ -53,7 +53,7 @@ object GithubRelease {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val file = inputFile("archive.zip")
+        val file = inputFile("Archive.zip")
         removeReleaseAssets()
         uploadRelease(file)
     }
