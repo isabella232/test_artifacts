@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     application
-    kotlin("jvm") version "1.2.61"
+    kotlin("jvm") version "1.3.71"
 }
 
 group = "test_artifacts"
@@ -13,11 +13,11 @@ repositories {
 }
 
 dependencies {
-    compile(kotlin("stdlib-jdk8"))
+    implementation(kotlin("stdlib-jdk8"))
     // https://github.com/jcabi/jcabi-github/releases
-    compile("com.jcabi:jcabi-github:0.41")
-    compile("org.slf4j:slf4j-nop:1.7.25")
-    testCompile("junit", "junit", "4.12")
+    implementation("com.jcabi:jcabi-github:1.0")
+    implementation("org.slf4j:slf4j-nop:1.7.25")
+    testImplementation("junit", "junit", "4.12")
 }
 
 tasks.withType<KotlinCompile> {
@@ -27,5 +27,3 @@ tasks.withType<KotlinCompile> {
 application {
     mainClassName = "test.artifacts.GithubRelease"
 }
-
-
