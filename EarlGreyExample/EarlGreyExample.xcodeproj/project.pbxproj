@@ -283,18 +283,18 @@
 				TargetAttributes = {
 					2CB7314C1C29E54A00CF35C1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = B6333T4PXQ;
+						DevelopmentTeam = H86XEK7ZTM;
 						LastSwiftMigration = 0800;
 						TestTargetID = 5F5A53781ADE67D500F81DF0;
 					};
 					5F5A53781ADE67D500F81DF0 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = B6333T4PXQ;
+						DevelopmentTeam = H86XEK7ZTM;
 						LastSwiftMigration = 0800;
 					};
 					5FDE05571B0DAA090037B82F = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = B6333T4PXQ;
+						DevelopmentTeam = H86XEK7ZTM;
 						TestTargetID = 5F5A53781ADE67D500F81DF0;
 					};
 				};
@@ -304,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -353,7 +354,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests-frameworks.sh",
 				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -362,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4E0ABCA0541CD21983DF6A11 /* [CP] Check Pods Manifest.lock */ = {
@@ -407,7 +408,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests-frameworks.sh",
 				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -416,7 +417,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -484,7 +485,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = EarlGreyExampleSwiftTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -508,7 +509,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				INFOPLIST_FILE = EarlGreyExampleSwiftTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -618,12 +619,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EarlGreyExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.samples.EarlGrey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.samples.EarlGrey3;
 				PRODUCT_MODULE_NAME = EarlGreyExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -641,12 +642,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EarlGreyExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.samples.EarlGrey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.earlgrey.samples.EarlGrey3;
 				PRODUCT_MODULE_NAME = EarlGreyExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -665,7 +666,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -703,7 +704,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = H86XEK7ZTM;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
